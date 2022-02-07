@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +60,7 @@
       <workItem from="1644224956640" duration="85000" />
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
-      <workItem from="1644226325746" duration="12217000" />
+      <workItem from="1644226325746" duration="12288000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644244175546</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="将视图独立出来">
+      <created>1644244329042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644244329042</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +146,8 @@
     <MESSAGE value="添加全局css" />
     <MESSAGE value="添加header的头部" />
     <MESSAGE value="添加基本路由及其文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加基本路由及其文件" />
+    <MESSAGE value="将视图独立出来" />
+    <option name="LAST_COMMIT_MESSAGE" value="将视图独立出来" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -157,10 +162,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644244174272">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644244327780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644244174272" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644244327780" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644233114752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,9 +178,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644241104752" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644229893315">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644244301425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644229893315" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644244301425" />
   </component>
 </project>

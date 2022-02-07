@@ -14,7 +14,6 @@ export default function MainView(){
             <Route path="todoList" element={<ToDoList />} />
             <Route path="record" element={<Record />} />
             <Route path="info" element={<Info />} />
-
         </Routes>
     )
 }
