@@ -1,10 +1,12 @@
-import React from "react"
+import * as React from "react";
+
 function App() {
-  return (
-    <div className="App">
-      helloWorld
-    </div>
-  );
+    return (
+        <div className="App">
+           helloWorld
+        </div>
+    );
 }
+
 
 export default App;

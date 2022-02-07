@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/Users.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/expenses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/invoices.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +69,7 @@
       <workItem from="1644224956640" duration="85000" />
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
-      <workItem from="1644226325746" duration="1336000" />
+      <workItem from="1644226325746" duration="6564000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -83,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644226973815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change favicon">
+      <created>1644227866426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644227866426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +111,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="change favicon" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644229790664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1644229790664" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1644226030205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,10 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644226970373">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644227865276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644226970373" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644227865276" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644226951690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -119,5 +139,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644227344208" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644229893315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644229893315" />
   </component>
 </project>
