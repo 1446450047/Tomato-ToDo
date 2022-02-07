@@ -1,14 +1,15 @@
 import * as React from "react";
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 function Header(){
     return(
         <HeaderWrapper>
-            <HeadItem>logo</HeadItem>
-            <HeadItem>tomato</HeadItem>
-            <HeadItem>ToDoList</HeadItem>
-            <HeadItem>record</HeadItem>
-            <HeadItem>info</HeadItem>
+            <HeadItem> <Link to="/">logo</Link></HeadItem>
+            <HeadItem> <Link to="/tomato">tomato</Link></HeadItem>
+            <HeadItem> <Link to="/todoList">todoList</Link></HeadItem>
+            <HeadItem> <Link to="/record">record</Link></HeadItem>
+            <HeadItem> <Link to="/info">info</Link></HeadItem>
         </HeaderWrapper>
     )
 }
