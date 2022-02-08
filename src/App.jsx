@@ -15,12 +15,18 @@ function App() {
 
 const Wrapper = styled.div`
   height: 100vh;
-  width: 60%;
+  width: 80%;
   display: flex;
   background:#EDF5FA;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  @media (max-width: 1500px) { 
+      width: 90%;
+   }
+   @media (max-width: 1000px) { 
+      width: 100%;
+   }
 `;
 
 const Footer = styled.footer`
