@@ -25,16 +25,15 @@ const HeaderWrapper = styled.header`
 `;
 
 const HeadItem = styled.div`
-    width: 16.6%;
+     width: 16.6%;
      display: flex;
-     justify-content: flex-start;
-     align-items: center;
+     justify-content: center;
      a{
          display: flex;
-         justify-content: flex-start;
+         justify-content: center;
          align-items: center;
          font-size: 20px;
-         color: #000;
+         color: inherit;
         svg{
            margin: 0 8px;
            width: 60px;
