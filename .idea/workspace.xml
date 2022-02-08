@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
-      <workItem from="1644288631499" duration="20929000" />
+      <workItem from="1644288631499" duration="22407000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644327096661</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="适应 大于1500  1500~1000 小于1000 布局">
+      <created>1644327449288</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1644327449288</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +298,8 @@
     <MESSAGE value="添加选中导航字体颜色显示" />
     <MESSAGE value="修改显示路由选中时bar和字体的颜色" />
     <MESSAGE value="修改wrapper布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改wrapper布局" />
+    <MESSAGE value="适应 大于1500  1500~1000 小于1000 布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="适应 大于1500  1500~1000 小于1000 布局" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -305,10 +314,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644327089982">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644327444619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644327089982" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644327444619" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644325776383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
