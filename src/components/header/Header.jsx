@@ -20,6 +20,8 @@ const HeaderWrapper = styled.header`
   height: 80px;
   background: #ffffff;
   display: flex;
+  border-bottom: 1px solid #E5E5E5;
+  z-index: 1;
 `;
 
 const HeadItem = styled.div`
