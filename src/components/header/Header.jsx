@@ -5,7 +5,9 @@ import {Link} from "react-router-dom";
 function Header(){
     return(
         <HeaderWrapper>
-            <HeadItem> <Link to="/">logo</Link></HeadItem>
+            <HeadItem> <svg className="icon" aria-hidden="true">
+                <use xlinkHref="#icon-logo"></use>
+            </svg><Link to="/">logo</Link></HeadItem>
             <HeadItem> <Link to="/tomato">tomato</Link></HeadItem>
             <HeadItem> <Link to="/todoList">todoList</Link></HeadItem>
             <HeadItem> <Link to="/record">record</Link></HeadItem>
@@ -23,6 +25,10 @@ const HeaderWrapper = styled.header`
 const HeadItem = styled.div`
     width: 16.6%;
      border: 1px solid red;
+     svg{
+     width: 60px;
+     height: 60px;
+     }
 `
 
 

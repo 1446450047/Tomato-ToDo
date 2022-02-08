@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="引入icon-font的font-class">
+    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
-      <workItem from="1644288631499" duration="1768000" />
+      <workItem from="1644288631499" duration="4223000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -145,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644244509519</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="引入icon-font的font-class">
+      <created>1644290431969</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644290431969</updated>
+    </task>
+    <task id="LOCAL-00013" summary="删除svg图片">
+      <created>1644290494875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644290494875</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +181,8 @@
     <MESSAGE value="将视图独立出来" />
     <MESSAGE value="添加icon图标" />
     <MESSAGE value="引入icon-font的font-class" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入icon-font的font-class" />
+    <MESSAGE value="删除svg图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除svg图片" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -177,10 +197,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644244507812">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644290488099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644244507812" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644290488099" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644233114752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,9 +213,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644241104752" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644244301425">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644290700511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644244301425" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644290700511" />
   </component>
 </project>
