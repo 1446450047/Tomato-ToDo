@@ -66,7 +66,7 @@
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
-      <workItem from="1644288631499" duration="22407000" />
+      <workItem from="1644288631499" duration="23472000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -257,7 +257,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644327449288</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="添加底部html">
+      <created>1644328946233</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328946234</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修改a标签的默认文字颜色">
+      <created>1644329002280</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1644329002280</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,8 +288,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <MESSAGE value="change favicon" />
     <MESSAGE value="尝试了一下子路由" />
     <MESSAGE value="添加style-components" />
     <MESSAGE value="添加全局css" />
@@ -299,7 +311,9 @@
     <MESSAGE value="修改显示路由选中时bar和字体的颜色" />
     <MESSAGE value="修改wrapper布局" />
     <MESSAGE value="适应 大于1500  1500~1000 小于1000 布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="适应 大于1500  1500~1000 小于1000 布局" />
+    <MESSAGE value="添加底部html" />
+    <MESSAGE value="修改a标签的默认文字颜色" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改a标签的默认文字颜色" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -314,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644327444619">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644328998160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644327444619" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644328998160" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644325776383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
