@@ -4,8 +4,13 @@ import {Link} from "react-router-dom";
 import Icon from "./Icon";
 
 function Header() {
+    function click(e){
+        console.dir(e.target)
+        console.log(e.target.parent);
+        console.log(e.target.offsetLeft)
+    }
     return (
-        <HeaderWrapper>
+        <HeaderWrapper onClick={click}>
             <HeadItem> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
             <HeadItem> <Link to="/tomato"><Icon symbolName="Tomato"/>Tomato</Link> </HeadItem>
             <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/>TodoList</Link> </HeadItem>
