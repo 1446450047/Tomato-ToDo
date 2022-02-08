@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Icon.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
-      <workItem from="1644288631499" duration="4223000" />
+      <workItem from="1644288631499" duration="4581000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -164,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644290494875</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加svg的font-class引用，修改node_modules里面的throwIfNamespace为 flase">
+      <created>1644293044553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644293044553</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +185,8 @@
     <MESSAGE value="添加icon图标" />
     <MESSAGE value="引入icon-font的font-class" />
     <MESSAGE value="删除svg图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除svg图片" />
+    <MESSAGE value="添加svg的font-class引用，修改node_modules里面的throwIfNamespace为 flase" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加svg的font-class引用，修改node_modules里面的throwIfNamespace为 flase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -197,10 +201,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644290488099">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644293042589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644290488099" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644293042589" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644233114752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

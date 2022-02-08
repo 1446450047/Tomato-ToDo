@@ -1,14 +1,13 @@
 import * as React from "react";
 import styled from "styled-components";
 import {Link} from "react-router-dom";
+import Icon from "./Icon";
 
 function Header(){
     return(
         <HeaderWrapper>
-            <HeadItem> <svg className="icon" aria-hidden="true">
-                <use xlinkHref="#icon-logo"></use>
-            </svg><Link to="/">logo</Link></HeadItem>
-            <HeadItem> <Link to="/tomato">tomato</Link></HeadItem>
+            <HeadItem> <Icon symbolName="logo" /> <Link to="/">logo</Link></HeadItem>
+            <HeadItem>  <Link to="/tomato">tomato</Link></HeadItem>
             <HeadItem> <Link to="/todoList">todoList</Link></HeadItem>
             <HeadItem> <Link to="/record">record</Link></HeadItem>
             <HeadItem> <Link to="/info">info</Link></HeadItem>
