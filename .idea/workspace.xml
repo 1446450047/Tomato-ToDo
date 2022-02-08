@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/header/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
-      <workItem from="1644288631499" duration="19017000" />
+      <workItem from="1644288631499" duration="19376000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -221,11 +221,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644325220639</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="删除xxx">
+      <created>1644325435195</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325435195</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加选中导航字体颜色显示">
+      <created>1644325639527</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1644325639527</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -248,7 +272,9 @@
     <MESSAGE value="想办法为好导航加一个选中标志" />
     <MESSAGE value="通过border-bottom来设置headeritem激活显示" />
     <MESSAGE value="通过一个div来滑动显示路由切换" />
-    <option name="LAST_COMMIT_MESSAGE" value="通过一个div来滑动显示路由切换" />
+    <MESSAGE value="删除xxx" />
+    <MESSAGE value="添加选中导航字体颜色显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加选中导航字体颜色显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -263,10 +289,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644325219182">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644325638244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644325219182" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644325638244" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644233114752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

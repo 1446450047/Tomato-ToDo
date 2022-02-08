@@ -19,7 +19,6 @@ function Header() {
         })
         currentNode.classList.add("active")
     }
-
     return (
         <HeaderWrapper className="header"  ref={headerRef} onClick={click}>
             <HeadItem className="active"> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
@@ -45,10 +44,9 @@ const HeaderWrapper = styled.header`
       width: 16.6%;
       top: 100%;
       left: 0;
-      border-bottom: 2px solid red;
+      border-bottom: 2px solid #F76E11;
   }
 `;
-
 const HeadItem = styled.div`
      width: 16.6%;
      display: flex;
@@ -66,7 +64,7 @@ const HeadItem = styled.div`
          }
      }
      &.active{
-        color: red;
+        color: #F76E11;
      }
 `;
 
