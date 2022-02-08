@@ -7,6 +7,7 @@
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Icon.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <workItem from="1644225106542" duration="81000" />
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
-      <workItem from="1644288631499" duration="14925000" />
+      <workItem from="1644288631499" duration="18634000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -208,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644301015030</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="通过border-bottom来设置headeritem激活显示">
+      <created>1644321448798</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1644321448798</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +241,8 @@
     <MESSAGE value="添加导航条下划线" />
     <MESSAGE value="让headitem中的元素居中" />
     <MESSAGE value="想办法为好导航加一个选中标志" />
-    <option name="LAST_COMMIT_MESSAGE" value="想办法为好导航加一个选中标志" />
+    <MESSAGE value="通过border-bottom来设置headeritem激活显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过border-bottom来设置headeritem激活显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -248,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644300998516">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644321447450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644300998516" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644321447450" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644233114752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
