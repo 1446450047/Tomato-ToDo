@@ -22,9 +22,8 @@ export default function MainView(){
     )
 }
 const MainWrapper = styled.div`
-  width: 60%;
+  width: 100%;
   background: #ffffff;
-  
   //尽可能的高
   flex: 1;
 `

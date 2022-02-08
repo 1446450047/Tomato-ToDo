@@ -32,7 +32,7 @@ function Header() {
 }
 
 const HeaderWrapper = styled.header`
-  width: 60%;
+  width: 100%;
   height: 80px;
   background: #ffffff;
   display: flex;

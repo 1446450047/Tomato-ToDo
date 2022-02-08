@@ -5,23 +5,27 @@ import styled from "styled-components";
 
 function App() {
     return (
-        <Wrapper className="wrapper">
+        <Wrapper>
             <Header/>
             <MainView/>
+            <Footer>footer</Footer>
         </Wrapper>
     );
 }
 
 const Wrapper = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 60%;
   display: flex;
   background:#EDF5FA;
-  justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: center; 
 `;
 
-
+const Footer = styled.footer`
+height: 90px;
+background:#fff;
+`
 
 export default App;
