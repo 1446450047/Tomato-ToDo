@@ -3,17 +3,18 @@ import styled from "styled-components";
 import {Link} from "react-router-dom";
 import Icon from "./Icon";
 
-function Header(){
-    return(
+function Header() {
+    return (
         <HeaderWrapper>
-            <HeadItem> <Icon symbolName="logo" /> <Link to="/">logo</Link></HeadItem>
-            <HeadItem>  <Link to="/tomato">tomato</Link></HeadItem>
-            <HeadItem> <Link to="/todoList">todoList</Link></HeadItem>
-            <HeadItem> <Link to="/record">record</Link></HeadItem>
-            <HeadItem> <Link to="/info">info</Link></HeadItem>
+            <HeadItem> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
+            <HeadItem> <Link to="/tomato"><Icon symbolName="Tomato"/>Tomato</Link> </HeadItem>
+            <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/>TodoList</Link> </HeadItem>
+            <HeadItem> <Link to="/record"><Icon symbolName="record"/>Record</Link> </HeadItem>
+            <HeadItem> <Link to="/info"><Icon symbolName="info"/>详情</Link> </HeadItem>
         </HeaderWrapper>
-    )
+    );
 }
+
 const HeaderWrapper = styled.header`
   width: 60%;
   height: 80px;
@@ -23,13 +24,23 @@ const HeaderWrapper = styled.header`
 
 const HeadItem = styled.div`
     width: 16.6%;
-     border: 1px solid red;
-     svg{
-     width: 60px;
-     height: 60px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     a{
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         font-size: 20px;
+         color: #000;
+        svg{
+           margin: 0 8px;
+           width: 60px;
+           height: 60px;
+         }
      }
-`
+`;
 
 
-export default Header
+export default Header;
 
