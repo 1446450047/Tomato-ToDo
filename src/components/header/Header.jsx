@@ -5,6 +5,7 @@ import Icon from "./Icon";
 
 function Header() {
     const bar = React.createRef();
+    const headerRef = React.createRef()
     function click(e) {
         let currentNodeName = e.target.nodeName.toLowerCase();
         let currentNode = e.target;
@@ -13,11 +14,15 @@ function Header() {
             currentNodeName = currentNode.nodeName.toLowerCase();
         }
         bar.current.style.left = currentNode.offsetLeft + "px";
+        [...headerRef.current.children].forEach((item)=>{
+            item.classList.remove("active")
+        })
+        currentNode.classList.add("active")
     }
 
     return (
-        <HeaderWrapper className="header"  onClick={click}>
-            <HeadItem> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
+        <HeaderWrapper className="header"  ref={headerRef} onClick={click}>
+            <HeadItem className="active"> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
             <HeadItem> <Link to="/tomato"><Icon symbolName="Tomato"/>Tomato</Link> </HeadItem>
             <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/>TodoList</Link> </HeadItem>
             <HeadItem> <Link to="/record"><Icon symbolName="record"/>Record</Link> </HeadItem>
@@ -59,6 +64,9 @@ const HeadItem = styled.div`
            width: 60px;
            height: 60px;
          }
+     }
+     &.active{
+        color: red;
      }
 `;
 
