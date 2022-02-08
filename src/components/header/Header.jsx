@@ -41,6 +41,5 @@ const HeadItem = styled.div`
      }
 `;
 
-
 export default Header;
 
