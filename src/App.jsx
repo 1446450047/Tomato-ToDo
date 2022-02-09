@@ -22,7 +22,7 @@ function App() {
 }
 
 const Wrapper = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   width: 80%;
   display: flex;
   background:#EDF5FA;
