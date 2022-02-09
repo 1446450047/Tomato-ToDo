@@ -2,6 +2,7 @@ import React from "react";
 import study from "../../images/study.png";
 import styled from "styled-components";
 import {Button} from "../Button";
+import {Link} from "react-router-dom";
 
 function Home() {
     return (
@@ -17,9 +18,9 @@ function Home() {
             </TextAndImage>
             <Buttons>
                 <span>Go：</span>
-                <Button>番茄</Button>
-                <Button>ToDo</Button>
-                <Button>历史数据</Button>
+                <Button><Link to="tomato">番茄</Link></Button>
+                <Button><Link to="todoList">ToDo</Link></Button>
+                <Button><Link to="record">历史数据</Link></Button>
             </Buttons>
         </HomeWrapper>
     );
