@@ -17,7 +17,7 @@ function Home() {
                 <img src={study} alt="study"/>
             </TextAndImage>
             <Buttons>
-                <span>Go：</span>
+                <span>Go:</span>
                 <Button><Link to="tomato">番茄</Link></Button>
                 <Button><Link to="todoList">ToDo</Link></Button>
                 <Button><Link to="record">历史数据</Link></Button>
@@ -57,6 +57,7 @@ const Buttons = styled.div`
    span{
       line-height: 44px;
       text-align: center;
+      font-size: 30px;
   }
   @media (max-width: 600px) {
         flex-direction: column;
