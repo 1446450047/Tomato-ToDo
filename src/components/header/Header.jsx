@@ -61,6 +61,7 @@ const HeadItem = styled.div`
          align-items: center;
          font-size: 20px;
          color: inherit;
+         width: 100%;
         svg{
            margin: 0 8px;
            width: 60px;

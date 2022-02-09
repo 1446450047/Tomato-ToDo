@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <workItem from="1644225220527" duration="1071000" />
       <workItem from="1644226325746" duration="12483000" />
       <workItem from="1644288631499" duration="23807000" />
-      <workItem from="1644373683752" duration="10833000" />
+      <workItem from="1644373683752" duration="12447000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -305,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644386194864</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="添加button组件">
+      <created>1644388821964</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644388821964</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +330,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加基本路由及其文件" />
     <MESSAGE value="将视图独立出来" />
     <MESSAGE value="添加icon图标" />
     <MESSAGE value="引入icon-font的font-class" />
@@ -347,7 +354,8 @@
     <MESSAGE value="添加导航的响应式显示" />
     <MESSAGE value="引入study和main的基本布局" />
     <MESSAGE value="添加home上半部分的响应式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加home上半部分的响应式" />
+    <MESSAGE value="添加button组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加button组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -362,10 +370,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644386193536">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644388814891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644386193536" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644388814891" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644330206154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

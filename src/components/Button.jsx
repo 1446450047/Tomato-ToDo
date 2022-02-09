@@ -8,8 +8,9 @@ export function Button(props){
 const Btn = styled.div`
       background:#1A1A1A;
       color: #fff;
+      
       display: inline-block;
-      padding: 2px 24px;
+      padding: 2px 12px;
       cursor: pointer;
       text-align: center;
       min-width: 80px;

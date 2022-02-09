@@ -16,6 +16,7 @@ function Home() {
                 <img src={study} alt="study"/>
             </TextAndImage>
             <Buttons>
+                <span>Go：</span>
                 <Button>番茄</Button>
                 <Button>ToDo</Button>
                 <Button>历史数据</Button>
@@ -35,7 +36,8 @@ const TextAndImage = styled.div`
    @media (max-width: 1000px) {
       flex-direction: column-reverse; 
       align-items: center;
-       div{
+      justify-content: center;
+     div{
          width: 80%;
        }
       img{
@@ -44,10 +46,21 @@ const TextAndImage = styled.div`
   };
 `;
 const HomeWrapper = styled.div`
-  padding-top: 50px;
+  padding-top: 20px;  
 `
 const Buttons = styled.div`
-  
+  padding: 60px 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+   span{
+      line-height: 44px;
+      text-align: center;
+  }
+  @media (max-width: 600px) {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 `;
 const TextInfo = styled.div`
   display: flex;
