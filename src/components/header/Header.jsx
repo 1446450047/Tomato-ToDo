@@ -1,26 +1,25 @@
 import * as React from "react";
 import styled from "styled-components";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import Icon from "./Icon";
+import {useEffect} from "react";
+import {router} from "../../routes/routerIndx";
 
 function Header() {
+    //获取路由
+    let location = router[useLocation().pathname]
+    useEffect(() => {
+        console.log(location);
+        bar.current.style.left = headerRef.current.children[location].offsetLeft + "px";
+        [...headerRef.current.children].forEach((item) => {
+            item.classList.remove("active");
+        });
+        headerRef.current.children[location].classList.add("active");
+    }, [location]);
     const bar = React.createRef();
-    const headerRef = React.createRef()
-    function click(e) {
-        let currentNodeName = e.target.nodeName.toLowerCase();
-        let currentNode = e.target;
-        while (currentNodeName !== "div") {
-            currentNode = currentNode.parentNode;
-            currentNodeName = currentNode.nodeName.toLowerCase();
-        }
-        bar.current.style.left = currentNode.offsetLeft + "px";
-        [...headerRef.current.children].forEach((item)=>{
-            item.classList.remove("active")
-        })
-        currentNode.classList.add("active")
-    }
+    const headerRef = React.createRef();
     return (
-        <HeaderWrapper className="header"  ref={headerRef} onClick={click}>
+        <HeaderWrapper className="header" ref={headerRef}>
             <HeadItem className="active"> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
             <HeadItem> <Link to="/tomato"><Icon symbolName="Tomato"/><span>Tomato</span></Link> </HeadItem>
             <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/><span>TodoList</span> </Link> </HeadItem>
