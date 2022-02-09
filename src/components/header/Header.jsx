@@ -22,10 +22,10 @@ function Header() {
     return (
         <HeaderWrapper className="header"  ref={headerRef} onClick={click}>
             <HeadItem className="active"> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
-            <HeadItem> <Link to="/tomato"><Icon symbolName="Tomato"/>Tomato</Link> </HeadItem>
-            <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/>TodoList</Link> </HeadItem>
-            <HeadItem> <Link to="/record"><Icon symbolName="record"/>Record</Link> </HeadItem>
-            <HeadItem> <Link to="/info"><Icon symbolName="info"/>详情</Link> </HeadItem>
+            <HeadItem> <Link to="/tomato"><Icon symbolName="Tomato"/><span>Tomato</span></Link> </HeadItem>
+            <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/><span>TodoList</span> </Link> </HeadItem>
+            <HeadItem> <Link to="/record"><Icon symbolName="record"/><span>Record</span></Link> </HeadItem>
+            <HeadItem> <Link to="/info"><Icon symbolName="info"/><span>详情</span></Link> </HeadItem>
             <div ref={bar}></div>
         </HeaderWrapper>
     );
@@ -51,6 +51,10 @@ const HeadItem = styled.div`
      width: 16.6%;
      display: flex;
      justify-content: center;
+     @media (max-width: 1000px) { 
+          width: 20%;
+          justify-content: space-between;
+     }
      a{
          display: flex;
          justify-content: center;
@@ -62,7 +66,12 @@ const HeadItem = styled.div`
            width: 60px;
            height: 60px;
          }
-     }
+         span{
+              @media (max-width: 1000px) { 
+                    display: none;
+                }
+           }
+      }
      &.active{
         color: #F76E11;
      }
