@@ -1,6 +1,7 @@
 import React from "react";
 import study from "../../images/study.png";
 import styled from "styled-components";
+import {Button} from "../Button";
 
 function Home() {
     return (
@@ -15,9 +16,9 @@ function Home() {
                 <img src={study} alt="study"/>
             </TextAndImage>
             <Buttons>
-                <button>番茄</button>
-                <button>ToDo</button>
-                <button>历史数据</button>
+                <Button>番茄</Button>
+                <Button>ToDo</Button>
+                <Button>历史数据</Button>
             </Buttons>
         </HomeWrapper>
     );
@@ -46,7 +47,7 @@ const HomeWrapper = styled.div`
   padding-top: 50px;
 `
 const Buttons = styled.div`
-  border: 1px solid blue;
+  
 `;
 const TextInfo = styled.div`
   display: flex;
