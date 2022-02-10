@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Info.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Info.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +92,7 @@
       <workItem from="1644226325746" duration="12483000" />
       <workItem from="1644288631499" duration="23807000" />
       <workItem from="1644373683752" duration="21942000" />
-      <workItem from="1644467746919" duration="6922000" />
+      <workItem from="1644467746919" duration="10928000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -404,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644474573281</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="移动端适配">
+      <created>1644474905106</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1644474905106</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="通过border-bottom来设置headeritem激活显示" />
     <MESSAGE value="通过一个div来滑动显示路由切换" />
     <MESSAGE value="删除xxx" />
     <MESSAGE value="添加选中导航字体颜色显示" />
@@ -469,7 +480,8 @@
     <MESSAGE value="执行 npm run eject 后提交" />
     <MESSAGE value="提交代码准备版本回滚" />
     <MESSAGE value="版本回滚后尝试react-markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="版本回滚后尝试react-markdown" />
+    <MESSAGE value="移动端适配" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动端适配" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -484,10 +496,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644474569695">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644474899364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644474569695" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644474899364" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644470351357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

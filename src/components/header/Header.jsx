@@ -9,7 +9,6 @@ function Header() {
     //获取路由
     let location = router[useLocation().pathname]
     useEffect(() => {
-        console.log(location);
         bar.current.style.left = headerRef.current.children[location].offsetLeft + "px";
         [...headerRef.current.children].forEach((item) => {
             item.classList.remove("active");
@@ -25,7 +24,7 @@ function Header() {
             <HeadItem> <Link to="/todoList"><Icon symbolName="todoList"/><span>TodoList</span> </Link> </HeadItem>
             <HeadItem> <Link to="/record"><Icon symbolName="record"/><span>Record</span></Link> </HeadItem>
             <HeadItem> <Link to="/info"><Icon symbolName="info"/><span>详情</span></Link> </HeadItem>
-            <div ref={bar}></div>
+            <div ref={bar}> </div>
         </HeaderWrapper>
     );
 }
