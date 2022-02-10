@@ -19,6 +19,12 @@ function Info(){
     )
 }
 const InfoWrapper = styled.div`
-border: 1px solid red;
+  border: 1px solid red;
+  padding: 50px 100px;
+
+  @media (max-width: 1200px){
+    padding: 20px 50px;
+
+  }
 `
 export default Info
