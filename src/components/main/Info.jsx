@@ -3,7 +3,7 @@ import React from "react";
 function Info(){
     return(
         <div>
-            <h1>info</h1>
+            <h2>开发日志</h2>
         </div>
     )
 }
