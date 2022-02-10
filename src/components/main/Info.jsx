@@ -1,13 +1,24 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import ReactMarkdown from 'react-markdown'
-import InfoText from "./Info.md"
+import InfoText from  "./Info.md"
+import styled from "styled-components";
+
 function Info(){
-    console.dir(InfoText);
+    const [markdown,setMarkdown] = useState('')
+
+    useEffect(()=>{
+        fetch(InfoText).then((response) => response.text()).then((text) => {
+            setMarkdown(text)
+        })
+    })
     return(
-        <div>
+        <InfoWrapper>
             <h2>开发日志</h2>
-            <ReactMarkdown># Hello, *world*!</ReactMarkdown>
-        </div>
+            <ReactMarkdown>{markdown}</ReactMarkdown>
+        </InfoWrapper>
     )
 }
+const InfoWrapper = styled.div`
+border: 1px solid red;
+`
 export default Info

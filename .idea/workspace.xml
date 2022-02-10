@@ -3,12 +3,26 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="添加开发日志">
+    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="提交代码准备版本回滚">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Info.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -74,7 +89,7 @@
       <workItem from="1644226325746" duration="12483000" />
       <workItem from="1644288631499" duration="23807000" />
       <workItem from="1644373683752" duration="21942000" />
-      <workItem from="1644467746919" duration="3190000" />
+      <workItem from="1644467746919" duration="6591000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -356,7 +371,35 @@
       <option name="project" value="LOCAL" />
       <updated>1644468443372</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="引入react-markdown">
+      <created>1644471004145</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1644471004145</updated>
+    </task>
+    <task id="LOCAL-00042" summary="准备执行 npm run eject">
+      <created>1644471195137</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1644471195137</updated>
+    </task>
+    <task id="LOCAL-00043" summary="执行 npm run eject 后提交">
+      <created>1644472108678</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644472108678</updated>
+    </task>
+    <task id="LOCAL-00044" summary="提交代码准备版本回滚">
+      <created>1644473782212</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1644473782212</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,11 +415,30 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成header的基本布局和路由跳转" />
-    <MESSAGE value="让main尽可能的高，重构布局代码" />
-    <MESSAGE value="添加导航条下划线" />
-    <MESSAGE value="让headitem中的元素居中" />
     <MESSAGE value="想办法为好导航加一个选中标志" />
     <MESSAGE value="通过border-bottom来设置headeritem激活显示" />
     <MESSAGE value="通过一个div来滑动显示路由切换" />
@@ -398,7 +460,11 @@
     <MESSAGE value="更改路由切换导航条的显示效果，通过路由的转换来实现路由的bar显示" />
     <MESSAGE value="更改go的字体大小" />
     <MESSAGE value="添加开发日志" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加开发日志" />
+    <MESSAGE value="引入react-markdown" />
+    <MESSAGE value="准备执行 npm run eject" />
+    <MESSAGE value="执行 npm run eject 后提交" />
+    <MESSAGE value="提交代码准备版本回滚" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码准备版本回滚" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644243167882">
@@ -413,10 +479,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644470354684">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644474208194">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644470354684" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644474208194" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644470351357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -425,13 +491,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1644227230423" />
+    <state width="1511" height="279" key="GridCell.Tab.0.bottom" timestamp="1644474399586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1511" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1644474399586" />
+    <state width="1511" height="279" key="GridCell.Tab.0.center" timestamp="1644474399586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1511" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1644474399586" />
+    <state width="1511" height="279" key="GridCell.Tab.0.left" timestamp="1644474399586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1511" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1644474399586" />
+    <state width="1511" height="279" key="GridCell.Tab.0.right" timestamp="1644474399586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1511" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644474399586" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1644241104752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644241104752" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644374937498">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1644472291119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644374937498" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1644472291119" />
   </component>
 </project>
