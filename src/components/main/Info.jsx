@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import InfoText from  "./Info.md"
 import styled from "styled-components";
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
 function Info(){
     const [markdown,setMarkdown] = useState('')
 
@@ -14,7 +15,8 @@ function Info(){
     return(
         <InfoWrapper>
             <Title>开发日志</Title>
-            <ReactMarkdown remarkPlugins={[remarkGfm]} >{markdown}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}
+            >{markdown}</ReactMarkdown>
         </InfoWrapper>
     )
 }
