@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/List.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,14 +90,7 @@
       <workItem from="1644288631499" duration="23807000" />
       <workItem from="1644373683752" duration="21942000" />
       <workItem from="1644467746919" duration="11258000" />
-      <workItem from="1644549176022" duration="10965000" />
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1644226816158</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1644226816158</updated>
+      <workItem from="1644549176022" duration="11265000" />
     </task>
     <task id="LOCAL-00002" summary="change favicon">
       <created>1644226868864</created>
@@ -436,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644571471899</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="创建模拟数据">
+      <created>1644574106395</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1644574106396</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +476,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改显示路由选中时bar和字体的颜色" />
     <MESSAGE value="修改wrapper布局" />
     <MESSAGE value="适应 大于1500  1500~1000 小于1000 布局" />
     <MESSAGE value="添加底部html" />
@@ -502,7 +500,8 @@
     <MESSAGE value="添加info页面的信息" />
     <MESSAGE value="添加三星金克斯截图" />
     <MESSAGE value="添加input输入框" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加input输入框" />
+    <MESSAGE value="创建模拟数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建模拟数据" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -517,14 +516,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644571466989">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644574096772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644571466989" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1644485617766">
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644574096772" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1644574086631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644485617766" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644574086631" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1644485920416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
