@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/lol_jinkesi.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Info.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Info.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Info.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <workItem from="1644288631499" duration="23807000" />
       <workItem from="1644373683752" duration="21942000" />
       <workItem from="1644467746919" duration="11258000" />
-      <workItem from="1644549176022" duration="4251000" />
+      <workItem from="1644549176022" duration="8194000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1644226816158</created>
@@ -425,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644485633663</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="添加三星金克斯截图">
+      <created>1644567418714</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1644567418714</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="删除xxx" />
     <MESSAGE value="添加选中导航字体颜色显示" />
     <MESSAGE value="修改显示路由选中时bar和字体的颜色" />
     <MESSAGE value="修改wrapper布局" />
@@ -491,7 +495,8 @@
     <MESSAGE value="版本回滚后尝试react-markdown" />
     <MESSAGE value="移动端适配" />
     <MESSAGE value="添加info页面的信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加info页面的信息" />
+    <MESSAGE value="添加三星金克斯截图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加三星金克斯截图" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -506,10 +511,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644485626019">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644567399847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644485626019" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644567399847" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644485617766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

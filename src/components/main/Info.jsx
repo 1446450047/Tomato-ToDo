@@ -16,6 +16,7 @@ function Info(){
         <InfoWrapper>
             <Title>开发日志</Title>
             <ReactMarkdown remarkPlugins={[remarkGfm]}
+                           rehypePlugins={[rehypeRaw]}
             >{markdown}</ReactMarkdown>
         </InfoWrapper>
     )
