@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +94,7 @@
       <workItem from="1644467746919" duration="11258000" />
       <workItem from="1644549176022" duration="11951000" />
       <workItem from="1644633803690" duration="3080000" />
-      <workItem from="1644664178470" duration="743000" />
-    </task>
-    <task id="LOCAL-00005" summary="尝试了一下子路由">
-      <created>1644233150005</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1644233150010</updated>
+      <workItem from="1644664178470" duration="5180000" />
     </task>
     <task id="LOCAL-00006" summary="添加style-components">
       <created>1644240208707</created>
@@ -438,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644636235485</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="完善task布局">
+      <created>1644665146546</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1644665146546</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +480,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改a标签的默认文字颜色" />
     <MESSAGE value="添加底部样式，改变了高度和布局" />
     <MESSAGE value="添加导航的响应式显示" />
     <MESSAGE value="引入study和main的基本布局" />
@@ -504,7 +504,8 @@
     <MESSAGE value="list中数据渲染" />
     <MESSAGE value="完成task的基本样式" />
     <MESSAGE value="独立出数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="独立出数据" />
+    <MESSAGE value="完善task布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善task布局" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -519,14 +520,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644636225954">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644665144172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644636225954" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1644574086631">
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644665144172" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644574086631" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644665120455" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1644485920416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

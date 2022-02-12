@@ -3,14 +3,30 @@ import styled from "styled-components";
 import Icon from "../header/Icon";
 import {Button} from "../Button";
 import List from "../List";
-import {todoRecord} from "../../data";
+import {getId, getTasks, setId, setTask} from "../../data";
 
 function ToDoList() {
+    const taskInput = React.createRef()
+    const todoRecord = getTasks()
+    const addTask = function (){
+        const content = taskInput.current.value
+        if(content === ""){
+            alert("内容不能为空")
+        }else{
+            let id = getId()
+            let time = new Date()
+            let createDay =  time.toLocaleDateString() //年月日
+            let createTime =  time.toLocaleTimeString() //时间
+            const task = {id:id++,content,createDay,createTime,done:false}
+            setId(id)
+            setTask(task)
+        }
+    }
     return (
         <>
             <ToDoWrapper>
-                <InputWrapper><Icon symbolName="add"/> <input type="text"/></InputWrapper>
-                <Button>添加</Button>
+                <InputWrapper><Icon symbolName="add"/> <input type="text" ref={taskInput} /></InputWrapper>
+                <Button onClick={addTask}>添加</Button>
             </ToDoWrapper>
             <List lists={todoRecord}/>
         </>

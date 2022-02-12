@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-export function Button(props){
-    return(<Btn>{props.children}</Btn>)
+export function Button({children,onClick}){
+    return(<Btn onClick={onClick}>{children}</Btn>)
 }
 
 const Btn = styled.div`
@@ -19,6 +19,7 @@ const Btn = styled.div`
       border-radius: 25px;
       line-height: 32px;
       margin: 4px 8px;
+      user-select: none;
       &:hover{
         background:#474545;
       }

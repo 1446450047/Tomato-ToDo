@@ -1,29 +1,17 @@
+const getId = function(){
+    return window.localStorage.getItem("id") || 1
+}
+const setId = function(id){
+    window.localStorage.setItem('id',id)
+}
+const getTasks = function(){
+    return JSON.parse(window.localStorage.getItem("tasks") || "[]")
+}
+const setTask = function(task){
+    const tasks = getTasks()
+    tasks.push(task)
+    window.localStorage.setItem("tasks",JSON.stringify(tasks))
 
-const todoRecord = [
-    {
-        id: 1,
-        content: "吃雪糕",
-        createTime: "time",
-        done: true,
-    },
-    {
-        id: 2,
-        content: "吃雪糕",
-        createTime: "time",
-        done: false,
-    },
-    {
-        id: 3,
-        content: "吃雪糕",
-        createTime: "time",
-        done: true,
-    },
-    {
-        id: 4,
-        content: "吃雪糕",
-        createTime: "time",
-        done: false,
-    }
-];
+}
 
-export {todoRecord}
+export {getId,setId,getTasks,setTask}
