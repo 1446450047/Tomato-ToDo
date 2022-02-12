@@ -1,15 +1,20 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import Icon from "../header/Icon";
 import {Button} from "../Button";
 import List from "../List";
-import {getId, getTasks, setId, setTask} from "../../data";
+import {getId, getTasks, updateId, setTask} from "../../data";
 
 function ToDoList() {
     const taskInput = React.createRef()
-    const todoRecord = getTasks()
+    let todoRecord = getTasks()
+    const [id,setId] = useState(getId())
+    useEffect(()=>{
+        todoRecord = getTasks()
+    },[id])
+
     const addTask = function (){
-        const content = taskInput.current.value
+        let content = taskInput.current.value
         if(content === ""){
             alert("内容不能为空")
         }else{
@@ -19,7 +24,9 @@ function ToDoList() {
             let createTime =  time.toLocaleTimeString() //时间
             const task = {id:id++,content,createDay,createTime,done:false}
             setId(id)
+            updateId(id)
             setTask(task)
+            taskInput.current.value = ""
         }
     }
     return (

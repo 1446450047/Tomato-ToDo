@@ -1,7 +1,7 @@
 const getId = function(){
     return window.localStorage.getItem("id") || 1
 }
-const setId = function(id){
+const updateId = function(id){
     window.localStorage.setItem('id',id)
 }
 const getTasks = function(){
@@ -11,7 +11,6 @@ const setTask = function(task){
     const tasks = getTasks()
     tasks.push(task)
     window.localStorage.setItem("tasks",JSON.stringify(tasks))
-
 }
 
-export {getId,setId,getTasks,setTask}
+export {getId,updateId,getTasks,setTask}
