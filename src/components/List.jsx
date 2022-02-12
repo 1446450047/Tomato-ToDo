@@ -9,7 +9,7 @@ export default function List({lists}) {
             {lists.map((item) =>
                 <Task key={item.id}>
                     <li
-                        className={item.done ? "finish" : "willDo"}>{item.content} ----- {item.createTime}
+                        className={item.done ? "finish" : "willDo"}>{item.content}<p>{item.createTime}</p>
                     </li>
                     <div>finish</div>
                 </Task>
@@ -24,13 +24,14 @@ const Task = styled.div`
       display: flex;
       justify-content: space-between;
       li{
-          margin: 16px ;
+          margin: 12px ;
           &.finish{
             text-decoration: line-through;
          }
       }
       div{
-        line-height: 54px;
+        display: flex;
+        align-items: center;
         padding: 0 16px;
         background:#1A1A1A;
         color: #fff;

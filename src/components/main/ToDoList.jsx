@@ -22,6 +22,7 @@ const ToDoWrapper = styled.div`
   margin: 60px auto;
   padding: 20px;
   display: flex;
+  justify-content: space-between;
   >div{
     margin-top: 0;
     border-radius: 15px;
