@@ -5,14 +5,46 @@ export default function List({lists}) {
 
     return (
         <ListWrapper>
+            <h3>任务列表</h3>
             {lists.map((item) =>
-                <li key={item.id} className={item.done ? "finish" :"willDo" } >{item.content} ----- {item.createTime}</li>)}
+                <Task key={item.id}>
+                    <li
+                        className={item.done ? "finish" : "willDo"}>{item.content} ----- {item.createTime}
+                    </li>
+                    <div>finish</div>
+                </Task>
+            )}
 
         </ListWrapper>);
 }
-
+const Task = styled.div`
+      box-shadow: 0 0 3px black;
+      border-radius: 15px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      li{
+          margin: 16px ;
+          &.finish{
+            text-decoration: line-through;
+         }
+      }
+      div{
+        line-height: 54px;
+        padding: 0 16px;
+        background:#1A1A1A;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 0 15px 15px 0;
+        &:hover{
+          background:#3c3b3b;
+        }
+      }
+`;
 const ListWrapper = styled.ul`
-  border: 1px solid red;
   width: 60%;
   margin: 0 auto;
+  >h3{
+    margin-bottom: 18px;
+  }
 `;

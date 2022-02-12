@@ -6,39 +6,39 @@ import List from "../List";
 
 const todoRecord = [
     {
-        id:1,
-        content:"吃雪糕",
+        id: 1,
+        content: "吃雪糕",
         createTime: "time",
         done: true,
     },
     {
-        id:2,
-        content:"吃雪糕",
+        id: 2,
+        content: "吃雪糕",
         createTime: "time",
         done: false,
     },
     {
-        id:3,
-        content:"吃雪糕",
+        id: 3,
+        content: "吃雪糕",
         createTime: "time",
         done: true,
     },
     {
-        id:4,
-        content:"吃雪糕",
+        id: 4,
+        content: "吃雪糕",
         createTime: "time",
         done: false,
     }
-]
+];
 
 function ToDoList() {
     return (
         <>
-        <ToDoWrapper>
-            <InputWrapper><Icon symbolName="add" /> <input type="text"/></InputWrapper>
-            <Button>添加</Button>
-        </ToDoWrapper>
-        <List lists={todoRecord} />
+            <ToDoWrapper>
+                <InputWrapper><Icon symbolName="add"/> <input type="text"/></InputWrapper>
+                <Button>添加</Button>
+            </ToDoWrapper>
+            <List lists={todoRecord}/>
         </>
     );
 }
@@ -69,6 +69,7 @@ const InputWrapper = styled.label`
     height: 100%;
     border: none;
     padding-left: 12px;
+    padding-right: 12px;
     font-size: 20px;
   }
   >svg{
@@ -76,6 +77,6 @@ const InputWrapper = styled.label`
     height: 2em;
     margin-left: 8px;
   }
-`
+`;
 
 export default ToDoList;
