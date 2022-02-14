@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, {useEffect, useState} from "react";
-import {toggleTask, randomColor, getTasks, setTask} from "../data";
+import {randomColor, getTasks, setTask} from "../data";
 import {Task} from "./Task";
 
 export default function List({lists}) {
@@ -9,7 +9,6 @@ export default function List({lists}) {
     useEffect(()=>{
         if(tasks.length!==0){
             let taskCount = taskIWrapper.current.children.length
-            console.log(taskIWrapper.current.children);
             for(let i = 1; i < taskCount;i++){
                 if(taskIWrapper.current.children[i].nodeName === "DIV") taskIWrapper.current.children[i].style.boxShadow = `0 0 5px ${randomColor()}`
             }
@@ -17,14 +16,13 @@ export default function List({lists}) {
     })
     const toggleDone = function(e){
         let id = parseInt(e.target.id)
-        let taskIndex
+        let taskIndex = undefined
         tasks.forEach((item,index)=>{
             if(item.id === id ) return taskIndex = index
         })
         tasks[taskIndex].done  = !tasks[taskIndex].done
         setTask(tasks)
         setTasks(getTasks())
-        toggleTask(id)
     }
     useEffect(()=>{
         setTasks(getTasks())
