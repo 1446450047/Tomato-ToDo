@@ -11,7 +11,9 @@ function ToDoList() {
     useEffect(()=>{
         todoRecord = getTasks()
     },[id])
-
+    useEffect(()=>{
+        console.log("hello");
+    },[todoRecord])
     const addTask = function (){
         let content = taskInput.current.value
         if(content === ""){

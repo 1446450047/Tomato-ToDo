@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, {useEffect} from "react";
-import {deleteTask, randomColor} from "../data";
+import {toggleTask, randomColor} from "../data";
 import {Task} from "./Task";
 
 export default function List({lists}) {
@@ -15,7 +15,7 @@ export default function List({lists}) {
     })
     const toggleDone = function(e){
         let id = parseInt(e.target.id)
-        deleteTask(id)
+        toggleTask(id)
     }
     return (
         <ListWrapper ref={taskIWrapper}>

@@ -22,13 +22,13 @@ const randomColor = function(){
 const setTask = function(tasks){
     window.localStorage.setItem("tasks",JSON.stringify(tasks))
 }
-const deleteTask = function(id){
+const toggleTask = function(id){
     const tasks = getTasks()
     let taskIndex
     tasks.forEach((item,index)=>{
         if(item.id === id ) return taskIndex = index
     })
-    tasks[taskIndex].done = true
+    tasks[taskIndex].done  = !tasks[taskIndex].done
     setTask(tasks)
 }
-export {getId,updateId,getTasks,addTask,randomColor,deleteTask}
+export {getId,updateId,getTasks,addTask,randomColor,toggleTask}
