@@ -4,7 +4,6 @@ import Icon from "../header/Icon";
 import {Button} from "../Button";
 import List from "../List";
 import {getId, getTasks, updateId, setTask} from "../../data";
-
 function ToDoList() {
     const taskInput = React.createRef()
     let todoRecord = getTasks()
