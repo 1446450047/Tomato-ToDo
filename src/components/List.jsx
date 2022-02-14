@@ -6,12 +6,12 @@ import {Task} from "./Task";
 export default function List({lists}) {
     const [tasks,setTasks] = useState(lists)
     const taskIWrapper = React.createRef()
-    const [undoCount,setUndoCount] = useState(0)
     useEffect(()=>{
         if(tasks.length!==0){
             let taskCount = taskIWrapper.current.children.length
+            console.log(taskIWrapper.current.children);
             for(let i = 1; i < taskCount;i++){
-                taskIWrapper.current.children[i].style.boxShadow = `0 0 5px ${randomColor()}`
+                if(taskIWrapper.current.children[i].nodeName === "DIV") taskIWrapper.current.children[i].style.boxShadow = `0 0 5px ${randomColor()}`
             }
         }
     })
@@ -31,8 +31,17 @@ export default function List({lists}) {
     },[lists])
     return (
         <ListWrapper ref={taskIWrapper}>
-            <h3>任务列表{undoCount}</h3>
-            {tasks.map((item) =>
+            <h3>未完成</h3>
+            {tasks.filter((item)=>item.done === false).map((item) =>
+                <Task key={item.id}>
+                    <li
+                        className={item.done ? "finish" : "willDo"}>{item.content} ----- {item.id}<p>{item.createTime}</p>
+                    </li>
+                    <div id={item.id} onClick={toggleDone}>{item.done ? "again" : "finish"}</div>
+                </Task>
+            )}
+            <h3>已完成</h3>
+            {tasks.filter((item)=>item.done === true).map((item) =>
                 <Task key={item.id}>
                     <li
                         className={item.done ? "finish" : "willDo"}>{item.content} ----- {item.id}<p>{item.createTime}</p>
