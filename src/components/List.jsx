@@ -1,12 +1,14 @@
 import styled from "styled-components";
-import React, {useEffect} from "react";
-import {toggleTask, randomColor} from "../data";
+import React, {useEffect, useState} from "react";
+import {toggleTask, randomColor, getTasks, setTask} from "../data";
 import {Task} from "./Task";
 
 export default function List({lists}) {
+    const [tasks,setTasks] = useState(lists)
     const taskIWrapper = React.createRef()
+    const [undoCount,setUndoCount] = useState(0)
     useEffect(()=>{
-        if(lists.length!==0){
+        if(tasks.length!==0){
             let taskCount = taskIWrapper.current.children.length
             for(let i = 1; i < taskCount;i++){
                 taskIWrapper.current.children[i].style.boxShadow = `0 0 5px ${randomColor()}`
@@ -15,12 +17,22 @@ export default function List({lists}) {
     })
     const toggleDone = function(e){
         let id = parseInt(e.target.id)
+        let taskIndex
+        tasks.forEach((item,index)=>{
+            if(item.id === id ) return taskIndex = index
+        })
+        tasks[taskIndex].done  = !tasks[taskIndex].done
+        setTask(tasks)
+        setTasks(getTasks())
         toggleTask(id)
     }
+    useEffect(()=>{
+        setTasks(getTasks())
+    },[lists])
     return (
         <ListWrapper ref={taskIWrapper}>
-            <h3>任务列表</h3>
-            {lists.map((item) =>
+            <h3>任务列表{undoCount}</h3>
+            {tasks.map((item) =>
                 <Task key={item.id}>
                     <li
                         className={item.done ? "finish" : "willDo"}>{item.content} ----- {item.id}<p>{item.createTime}</p>

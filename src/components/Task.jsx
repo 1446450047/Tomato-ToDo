@@ -23,6 +23,7 @@ export  const Task = styled.div`
         color: #fff;
         cursor: pointer;
         border-radius: 0 15px 15px 0;
+        user-select: none;
         &:hover{
           background:#3c3b3b;
         }

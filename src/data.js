@@ -31,4 +31,4 @@ const toggleTask = function(id){
     tasks[taskIndex].done  = !tasks[taskIndex].done
     setTask(tasks)
 }
-export {getId,updateId,getTasks,addTask,randomColor,toggleTask}
+export {getId,updateId,getTasks,addTask,randomColor,toggleTask,setTask}

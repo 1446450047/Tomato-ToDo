@@ -6,15 +6,15 @@ import List from "../List";
 import {getId, getTasks, updateId, addTask} from "../../data";
 function ToDoList() {
     const taskInput = React.createRef()
-    let todoRecord = getTasks()
+    let [todoRecord,setTodoRecord] =  useState(getTasks())
     const [id,setId] = useState(getId())
     useEffect(()=>{
-        todoRecord = getTasks()
+        setTodoRecord(getTasks())
     },[id])
-    useEffect(()=>{
-        console.log("hello");
-    },[todoRecord])
-    const addTask = function (){
+    // useEffect(()=>{
+    //     console.log("hello");
+    // },[todoRecord])
+    const addTaskHandle = function (){
         let content = taskInput.current.value
         if(content === ""){
             alert("内容不能为空")
@@ -34,9 +34,9 @@ function ToDoList() {
         <>
             <ToDoWrapper>
                 <InputWrapper><Icon symbolName="add"/> <input type="text" ref={taskInput} /></InputWrapper>
-                <Button onClick={addTask}>添加</Button>
+                <Button onClick={addTaskHandle}>添加</Button>
             </ToDoWrapper>
-            <List lists={todoRecord.reverse()}/>
+            <List lists={todoRecord}/>
         </>
     );
 }
