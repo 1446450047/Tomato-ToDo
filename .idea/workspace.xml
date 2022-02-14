@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +93,9 @@
       <workItem from="1644467746919" duration="11258000" />
       <workItem from="1644549176022" duration="11951000" />
       <workItem from="1644633803690" duration="3080000" />
-      <workItem from="1644664178470" duration="6115000" />
-    </task>
-    <task id="LOCAL-00007" summary="添加全局css">
-      <created>1644240509166</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1644240509166</updated>
+      <workItem from="1644664178470" duration="6147000" />
+      <workItem from="1644715488720" duration="1190000" />
+      <workItem from="1644811048899" duration="652000" />
     </task>
     <task id="LOCAL-00008" summary="添加header的头部">
       <created>1644243434955</created>
@@ -438,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644673638104</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="完善创建任务的部分代码">
+      <created>1644674443043</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1644674443043</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +481,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加导航的响应式显示" />
     <MESSAGE value="引入study和main的基本布局" />
     <MESSAGE value="添加home上半部分的响应式" />
     <MESSAGE value="添加button组件" />
@@ -504,7 +505,8 @@
     <MESSAGE value="独立出数据" />
     <MESSAGE value="完善task布局" />
     <MESSAGE value="创建任务功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建任务功能" />
+    <MESSAGE value="完善创建任务的部分代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善创建任务的部分代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -519,10 +521,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644673629182">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644674441218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644673629182" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644674441218" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

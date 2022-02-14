@@ -48,4 +48,12 @@ const ListWrapper = styled.ul`
   >h3{
     margin-bottom: 18px;
   }
+  @media (max-width: 1000px){
+    width: 80%;
+    
+  }
+  @media (max-width: 800px){
+    width: 100%;
+    padding: 20px;
+  }
 `;

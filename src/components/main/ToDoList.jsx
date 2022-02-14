@@ -51,6 +51,14 @@ const ToDoWrapper = styled.div`
     border-radius: 15px;
     line-height: 46px;
   }
+  @media (max-width: 1000px){
+    width: 80%;
+    
+  }
+  @media (max-width: 800px){
+    width: 100%;
+    
+  }
 `;
 const InputWrapper = styled.label`
   box-shadow: 0 0 3px black;
