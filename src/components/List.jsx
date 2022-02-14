@@ -1,10 +1,20 @@
 import styled from "styled-components";
-import React from "react";
+import React, {useEffect} from "react";
+import {randomColor} from "../data";
 
 export default function List({lists}) {
 
+    const taskIWrapper = React.createRef()
+    useEffect(()=>{
+        if(lists.length!==0){
+            let taskCount = taskIWrapper.current.children.length
+            for(let i = 1; i < taskCount;i++){
+                taskIWrapper.current.children[i].style.boxShadow = `0 0 5px ${randomColor()}`
+            }
+        }
+    })
     return (
-        <ListWrapper>
+        <ListWrapper ref={taskIWrapper}>
             <h3>任务列表</h3>
             {lists.map((item) =>
                 <Task key={item.id}>
@@ -18,15 +28,18 @@ export default function List({lists}) {
         </ListWrapper>);
 }
 const Task = styled.div`
-      box-shadow: 0 0 3px black;
       border-radius: 15px;
       margin-bottom: 15px;
       display: flex;
       justify-content: space-between;
       li{
+          color: #000;
           margin: 12px ;
           &.finish{
             text-decoration: line-through;
+         }
+         p{
+          color: #FC4F4F;
          }
       }
       div{

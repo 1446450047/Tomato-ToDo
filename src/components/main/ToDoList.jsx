@@ -35,7 +35,7 @@ function ToDoList() {
                 <InputWrapper><Icon symbolName="add"/> <input type="text" ref={taskInput} /></InputWrapper>
                 <Button onClick={addTask}>添加</Button>
             </ToDoWrapper>
-            <List lists={todoRecord}/>
+            <List lists={todoRecord.reverse()}/>
         </>
     );
 }
