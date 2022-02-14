@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Icon from "../header/Icon";
 import {Button} from "../Button";
 import List from "../List";
-import {getId, getTasks, updateId, setTask} from "../../data";
+import {getId, getTasks, updateId, addTask} from "../../data";
 function ToDoList() {
     const taskInput = React.createRef()
     let todoRecord = getTasks()
@@ -24,7 +24,7 @@ function ToDoList() {
             const task = {id:id++,content,createDay,createTime,done:false}
             setId(id)
             updateId(id)
-            setTask(task)
+            addTask(task)
             taskInput.current.value = ""
         }
     }

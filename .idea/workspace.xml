@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Task.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/ToDoList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +96,7 @@
       <workItem from="1644633803690" duration="3080000" />
       <workItem from="1644664178470" duration="6147000" />
       <workItem from="1644715488720" duration="1190000" />
-      <workItem from="1644811048899" duration="6203000" />
-    </task>
-    <task id="LOCAL-00012" summary="引入icon-font的font-class">
-      <created>1644290431969</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1644290431969</updated>
+      <workItem from="1644811048899" duration="8468000" />
     </task>
     <task id="LOCAL-00013" summary="删除svg图片">
       <created>1644290494875</created>
@@ -441,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644816625735</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="独立出Task的样式">
+      <created>1644817366226</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1644817366226</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +482,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加相应布局" />
     <MESSAGE value="添加按钮导航" />
     <MESSAGE value="提取footer组件" />
     <MESSAGE value="更改路由切换导航条的显示效果，通过路由的转换来实现路由的bar显示" />
@@ -507,7 +506,8 @@
     <MESSAGE value="添加hover放大效果" />
     <MESSAGE value="添加渲染动画" />
     <MESSAGE value="添加随机生成boxShadow" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加随机生成boxShadow" />
+    <MESSAGE value="独立出Task的样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="独立出Task的样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -522,10 +522,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644816622567">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644817362748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644816622567" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644817362748" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

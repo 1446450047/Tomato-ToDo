@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, {useEffect} from "react";
-import {randomColor} from "../data";
+import {deleteTask, randomColor} from "../data";
 import {Task} from "./Task";
 
 export default function List({lists}) {
@@ -13,20 +13,23 @@ export default function List({lists}) {
             }
         }
     })
+    const toggleDone = function(e){
+        let id = parseInt(e.target.id)
+        deleteTask(id)
+    }
     return (
         <ListWrapper ref={taskIWrapper}>
             <h3>任务列表</h3>
             {lists.map((item) =>
                 <Task key={item.id}>
                     <li
-                        className={item.done ? "finish" : "willDo"}>{item.content}<p>{item.createTime}</p>
+                        className={item.done ? "finish" : "willDo"}>{item.content} ----- {item.id}<p>{item.createTime}</p>
                     </li>
-                    <div>finish</div>
+                    <div id={item.id} onClick={toggleDone}>{item.done ? "again" : "finish"}</div>
                 </Task>
             )}
         </ListWrapper>);
 }
-
 const ListWrapper = styled.ul`
   width: 60%;
   margin: 0 auto;
