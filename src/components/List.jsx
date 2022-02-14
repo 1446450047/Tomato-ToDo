@@ -41,6 +41,10 @@ const Task = styled.div`
           background:#3c3b3b;
         }
       }
+      transition: all 0.3s ease;
+      &:hover{
+        transform: scale(105%);
+      }
 `;
 const ListWrapper = styled.ul`
   width: 60%;
