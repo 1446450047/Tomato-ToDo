@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Info.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Info.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Tomato.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Tomato.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +94,8 @@
       <workItem from="1644633803690" duration="3080000" />
       <workItem from="1644664178470" duration="6147000" />
       <workItem from="1644715488720" duration="1190000" />
-      <workItem from="1644811048899" duration="20649000" />
-    </task>
-    <task id="LOCAL-00017" summary="让main尽可能的高，重构布局代码">
-      <created>1644295512931</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1644295512931</updated>
+      <workItem from="1644811048899" duration="20825000" />
+      <workItem from="1644923609190" duration="2329000" />
     </task>
     <task id="LOCAL-00018" summary="添加导航条下划线">
       <created>1644295971244</created>
@@ -441,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644829719206</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="完成今日份总结">
+      <created>1644837263682</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1644837263682</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +481,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加开发日志" />
     <MESSAGE value="引入react-markdown" />
     <MESSAGE value="准备执行 npm run eject" />
     <MESSAGE value="执行 npm run eject 后提交" />
@@ -507,7 +505,8 @@
     <MESSAGE value="改变删除任务为切换任务的done属性" />
     <MESSAGE value="完成删除任务之后的视图重新渲染" />
     <MESSAGE value="添加task分组" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加task分组" />
+    <MESSAGE value="完成今日份总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成今日份总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -522,10 +521,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644829717736">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1644837262476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644829717736" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644837262476" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -554,6 +553,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644241104752" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644837353582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644837353582" />
     <state x="717" y="310" key="git4idea.ui.GitUnstashDialog" timestamp="1644837236798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
