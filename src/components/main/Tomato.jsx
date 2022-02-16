@@ -1,21 +1,45 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 import {Button} from "../Button";
 
 function Tomato() {
+    const timing = React.createRef()
+    // const [minuteNode,,secondNode] = timing.current.children
+    const [minute,setMinute] = useState(2)
+    const [second,setSecond] = useState(0)
+    const xxx = function(){
+        console.log(minute,second);
+        if(second >0){
+            setSecond(second-1)
+            console.log(1);
+
+        }else{
+            setSecond(59)
+            setMinute(minute-1)
+        }
+    }
+    const handleTomato = function(){
+        setInterval(()=>setSecond(second-1),1000)
+    }
+    const handleSpace = function(){
+        console.log(minute,second);
+
+    }
     return (
         <TomatoWrapper>
-            <Timing>
+            {minute}:{second}
+            <Timing ref={timing}>
                 <span>25</span>
                 <span>:</span>
                 <span>00</span>
             </Timing>
             <ButtonGroup>
-                <Button>开启一个番茄</Button>
-                <Button>休息一个间隙</Button>
+                <Button onClick={handleTomato}>开启一个番茄</Button>
+                <Button onClick={handleSpace}>休息一个间隙</Button>
             </ButtonGroup>
             <h3>今日番茄</h3>
             <TomatoLists>
+                <thead>
                 <tr>
                     <th>序号</th>
                     <th>类型</th>
@@ -24,6 +48,8 @@ function Tomato() {
                     <th>用时</th>
                     <th>是否完成</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>1</td>
                     <td>番茄</td>
@@ -120,6 +146,8 @@ function Tomato() {
                     <td>6</td>
                     <td>是</td>
                 </tr>
+                </tbody>
+
             </TomatoLists>
         </TomatoWrapper>
     );
@@ -154,17 +182,20 @@ const TomatoWrapper = styled.div`
   margin: 60px auto;
   h3{
       text-align: center;
+      padding-bottom: 8px;
   }
 `;
 const TomatoLists = styled.table`
   border: 2px solid #F8802E;
   border-radius: 4px;
-  margin: 0 auto;
+  margin: 0 auto;       
+  border-spacing: 0;
   padding: 12px 18px;
   tr{
     th,td{
        padding: 6px 24px;    
        text-align: center;
+       border-bottom: 1px solid #FFBC80;
     }
   }
 `;
