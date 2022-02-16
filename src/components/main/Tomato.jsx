@@ -150,7 +150,6 @@ const ButtonGroup = styled.div`
     }
 `;
 const TomatoWrapper = styled.div`
-  border: 1px solid red;
   width: 60%;
   margin: 60px auto;
   h3{
@@ -163,7 +162,10 @@ const TomatoLists = styled.table`
   margin: 0 auto;
   padding: 12px 18px;
   tr{
-    padding: 5px;
+    th,td{
+       padding: 6px 24px;    
+       text-align: center;
+    }
   }
 `;
 export default Tomato;
