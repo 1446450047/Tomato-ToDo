@@ -1,37 +1,54 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import {Button} from "../Button";
 
 function Tomato() {
-    const timing = React.createRef()
+    const timing = React.createRef();
     // const [minuteNode,,secondNode] = timing.current.children
-    const [minute,setMinute] = useState(2)
-    const [second,setSecond] = useState(0)
-    const xxx = function(){
-        console.log(minute,second);
-        if(second >0){
-            setSecond(second-1)
-            console.log(1);
-
-        }else{
-            setSecond(59)
-            setMinute(minute-1)
+    const [minute, setMinute] = useState(1);
+    const [second, setSecond] = useState(0);
+    const [intervalId, setIntervalId] = useState(0);
+    let newIntervalId
+    useEffect(()=>{
+        if(minute === 0 && second ===0){
+            clearInterval(intervalId)
+            //创建一个记录
         }
-    }
-    const handleTomato = function(){
-        setInterval(()=>setSecond(second-1),1000)
-    }
-    const handleSpace = function(){
-        console.log(minute,second);
+    },[minute,second])
 
-    }
+
+    const handleTomato = () => {
+        if (intervalId) {
+            clearInterval(intervalId);
+            setIntervalId(0);
+            return;
+        }
+        let m = minute
+        let s = second
+        newIntervalId = setInterval(() => {
+            console.log("倒计时中...")
+            if (s >= 1) {
+                s--
+                setSecond(prevCount => prevCount - 1);
+            } else if (m >=1) {
+                s = 10
+                m--
+                //这两个的顺序不能错，因为每次通过写接口改变变量之后都会刷新视图，重新render，如果minute先变为0，second没变为10时，就是 minute = 0 second = 0 会提前结束定时器
+                setSecond(() => 10);
+                setMinute((minute) => (minute - 1));
+            }
+        }, 1000);
+        setIntervalId(newIntervalId);
+    };
+    const handleSpace = function () {
+        console.log(minute, second);
+    };
     return (
         <TomatoWrapper>
-            {minute}:{second}
             <Timing ref={timing}>
-                <span>25</span>
+                <span>{minute}</span>
                 <span>:</span>
-                <span>00</span>
+                <span>{second}</span>
             </Timing>
             <ButtonGroup>
                 <Button onClick={handleTomato}>开启一个番茄</Button>
