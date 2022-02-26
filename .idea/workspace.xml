@@ -19,8 +19,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="todo:倒数功能">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/components/main/Tomato.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Tomato.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,14 +97,7 @@
       <workItem from="1644923609190" duration="3856000" />
       <workItem from="1645008507105" duration="6682000" />
       <workItem from="1645078048181" duration="595000" />
-      <workItem from="1645867555101" duration="6141000" />
-    </task>
-    <task id="LOCAL-00020" summary="想办法为好导航加一个选中标志">
-      <created>1644301015029</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1644301015030</updated>
+      <workItem from="1645867555101" duration="6461000" />
     </task>
     <task id="LOCAL-00021" summary="通过border-bottom来设置headeritem激活显示">
       <created>1644321448798</created>
@@ -443,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645009545193</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="完成倒数功能和清除定时器的功能">
+      <created>1645873876901</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1645873876901</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交代码准备版本回滚" />
     <MESSAGE value="版本回滚后尝试react-markdown" />
     <MESSAGE value="添加info页面的信息" />
     <MESSAGE value="添加三星金克斯截图" />
@@ -509,7 +507,8 @@
     <MESSAGE value="添加tomato页面的基本html" />
     <MESSAGE value="改变表格布局" />
     <MESSAGE value="todo:倒数功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo:倒数功能" />
+    <MESSAGE value="完成倒数功能和清除定时器的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成倒数功能和清除定时器的功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -524,10 +523,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1645016088309">
+    <state x="828" y="40" key="CommitChangelistDialog2" timestamp="1645873873913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1645016088309" />
+    <state x="828" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1645873873913" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -552,6 +551,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1511" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1644474399586" />
+    <state x="744" y="241" key="RollbackChangesDialog" timestamp="1645873830509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="241" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645873830509" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1644241104752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

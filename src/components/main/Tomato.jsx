@@ -8,16 +8,20 @@ function Tomato() {
     const [minute, setMinute] = useState(1);
     const [second, setSecond] = useState(0);
     const [intervalId, setIntervalId] = useState(0);
+    const [beginTime,setBeginTime] = useState("")
     let newIntervalId
     useEffect(()=>{
         if(minute === 0 && second ===0){
             clearInterval(intervalId)
             //创建一个记录
+            console.log("开始时间：",beginTime)
+            console.log("结束时间：",Date())
+
         }
     },[minute,second])
 
-
     const handleTomato = () => {
+        setBeginTime(() => Date())
         if (intervalId) {
             clearInterval(intervalId);
             setIntervalId(0);
