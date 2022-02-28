@@ -84,7 +84,7 @@ function Tomato() {
                 </tr>
                 </thead>
                 <tbody>
-                {tomatoes.map(tomato =>
+                {tomatoes.reverse().map(tomato =>
                     <tr key={tomato.id}>
                         <td>{tomato.id}</td>
                         <td>{tomato.createDay}</td>
@@ -112,6 +112,7 @@ const Timing = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 `;
 const ButtonGroup = styled.div`
     display: flex;
