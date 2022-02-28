@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import {Button} from "../Button";
+import {getTomatoId, setTomatoes} from "../../data";
 
 function Tomato() {
     const timing = React.createRef();
@@ -16,12 +17,20 @@ function Tomato() {
             //创建一个记录
             console.log("开始时间：",beginTime)
             console.log("结束时间：",Date())
-
+            let record = {
+                id:getTomatoId(),
+                type:"tomato",
+                createDay: beginTime.toLocaleDateString(),
+                beginTime:beginTime.toLocaleTimeString(),
+                endTime: new Date().toLocaleTimeString(),
+            }
+            setTomatoes(record)
+            console.log(record);
         }
     },[minute,second])
 
     const handleTomato = () => {
-        setBeginTime(() => Date())
+        setBeginTime(() =>  new Date())
         if (intervalId) {
             clearInterval(intervalId);
             setIntervalId(0);

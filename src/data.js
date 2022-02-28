@@ -22,4 +22,19 @@ const randomColor = function(){
 const setTask = function(tasks){
     window.localStorage.setItem("tasks",JSON.stringify(tasks))
 }
-export {getId,updateId,getTasks,addTask,randomColor,setTask}
+
+
+const getTomatoId = function(){
+     let tomatoId = window.localStorage.getItem("tomatoId") || 1
+    setTomatoId(tomatoId)
+    return tomatoId
+}
+
+
+const setTomatoId = function (tomatoId){
+    window.localStorage.setItem("tomatoId",JSON.stringify(++tomatoId))
+}
+const setTomatoes = function (tomato){
+    window.localStorage.setItem("tomatoes",JSON.stringify(tomato))
+}
+export {getId,updateId,getTasks,addTask,randomColor,setTask,getTomatoId,setTomatoes}
