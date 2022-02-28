@@ -2,21 +2,20 @@ import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import {Button} from "../Button";
 import {getTomatoId, setTomatoes} from "../../data";
+import Icon from "../header/Icon";
 
 function Tomato() {
     const timing = React.createRef();
-    // const [minuteNode,,secondNode] = timing.current.children
     const [minute, setMinute] = useState(1);
     const [second, setSecond] = useState(0);
     const [intervalId, setIntervalId] = useState(0);
     const [beginTime,setBeginTime] = useState("")
+    const [doing ,setDoing] = useState(false)
     let newIntervalId
     useEffect(()=>{
         if(minute === 0 && second ===0){
             clearInterval(intervalId)
             //创建一个记录
-            console.log("开始时间：",beginTime)
-            console.log("结束时间：",Date())
             let record = {
                 id:getTomatoId(),
                 type:"tomato",
@@ -30,6 +29,7 @@ function Tomato() {
     },[minute,second])
 
     const handleTomato = () => {
+        setDoing(!doing)
         setBeginTime(() =>  new Date())
         if (intervalId) {
             clearInterval(intervalId);
@@ -39,7 +39,6 @@ function Tomato() {
         let m = minute
         let s = second
         newIntervalId = setInterval(() => {
-            console.log("倒计时中...")
             if (s >= 1) {
                 s--
                 setSecond(prevCount => prevCount - 1);
@@ -64,8 +63,8 @@ function Tomato() {
                 <span>{second}</span>
             </Timing>
             <ButtonGroup>
-                <Button onClick={handleTomato}>开启一个番茄</Button>
-                <Button onClick={handleSpace}>休息一个间隙</Button>
+                <Button onClick={handleTomato}><Icon symbolName={doing? "end" : "begin"} /> 开启一个番茄</Button>
+                <Button onClick={handleSpace}><Icon symbolName={doing? "end" : "begin"} /> 休息一个间隙</Button>
             </ButtonGroup>
             <h3>今日番茄</h3>
             <TomatoLists>
