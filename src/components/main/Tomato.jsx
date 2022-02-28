@@ -6,15 +6,13 @@ import Icon from "../header/Icon";
 
 function Tomato() {
     const timing = React.createRef();
-    const [minute, setMinute] = useState(1);
+    const [minute, setMinute] = useState(25);
     const [second, setSecond] = useState(0);
     const [intervalId, setIntervalId] = useState(0);
     const [beginTime, setBeginTime] = useState("");
     const [doing, setDoing] = useState(false);
     const [tomatoes, setNewTomatoes] = useState(getTomatoes());
-    console.log(tomatoes);
     let newIntervalId;
-
     function endTomato(intervalId) {
         clearInterval(intervalId);
         setIntervalId(0);
@@ -24,10 +22,10 @@ function Tomato() {
             createDay: beginTime.toLocaleDateString(),
             beginTime: beginTime.toLocaleTimeString(),
             endTime: new Date().toLocaleTimeString(),
-            cost: (0 - minute) * 60 + 59 - second,
+            cost: (24 - minute) * 60 + (60 - second),
         };
         setTomatoes(record);
-        setMinute(1);
+        setMinute(25);
         setSecond(0);
         setDoing(false);
     }
@@ -71,7 +69,7 @@ function Tomato() {
                 <span>{second}</span>
             </Timing>
             <ButtonGroup>
-                <Button onClick={handleTomato}><Icon symbolName={doing ? "end" : "begin"}/> 开启一个番茄</Button>
+                <Button onClick={handleTomato}><Icon symbolName={doing ? "end" : "begin"}/> {doing ? "结束" : "开启一个番茄"}</Button>
             </ButtonGroup>
             <h3>今日番茄</h3>
             <TomatoLists>
@@ -93,7 +91,7 @@ function Tomato() {
                         <td>{tomato.beginTime}</td>
                         <td>{tomato.endTime}</td>
                         <td>{`${Math.floor(tomato.cost/ 60) }分${tomato.cost % 60}秒`}</td>
-                        <td>{tomato.cost >= 59 ? "是" : "否"}</td>
+                        <td>{tomato.cost >= 1499 ? "是" : "否"}</td>
                     </tr>
                 )}
                 </tbody>

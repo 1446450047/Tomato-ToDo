@@ -22,7 +22,6 @@
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Tomato.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Tomato.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +100,7 @@
       <workItem from="1645078048181" duration="595000" />
       <workItem from="1645867555101" duration="8619000" />
       <workItem from="1646030224875" duration="61000" />
-      <workItem from="1646041070439" duration="6275000" />
-    </task>
-    <task id="LOCAL-00026" summary="修改wrapper布局">
-      <created>1644327096661</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1644327096661</updated>
+      <workItem from="1646041070439" duration="7705000" />
     </task>
     <task id="LOCAL-00027" summary="适应 大于1500  1500~1000 小于1000 布局">
       <created>1644327449288</created>
@@ -446,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646046234682</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="添加tomatoes渲染">
+      <created>1646048880690</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1646048880690</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="list中数据渲染" />
     <MESSAGE value="完成task的基本样式" />
     <MESSAGE value="独立出数据" />
     <MESSAGE value="完善task布局" />
@@ -512,7 +510,8 @@
     <MESSAGE value="添加开始结束的icon" />
     <MESSAGE value="删除休息的按钮" />
     <MESSAGE value="可重复创建tomatoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="可重复创建tomatoes" />
+    <MESSAGE value="添加tomatoes渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加tomatoes渲染" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -527,10 +526,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="828" y="40" key="CommitChangelistDialog2" timestamp="1646046233314">
+    <state x="828" y="40" key="CommitChangelistDialog2" timestamp="1646048879150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646046233314" />
+    <state x="828" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646048879150" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
