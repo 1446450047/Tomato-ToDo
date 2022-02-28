@@ -52,9 +52,6 @@ function Tomato() {
         }, 1000);
         setIntervalId(newIntervalId);
     };
-    const handleSpace = function () {
-        console.log(minute, second);
-    };
     return (
         <TomatoWrapper>
             <Timing ref={timing}>
@@ -64,7 +61,6 @@ function Tomato() {
             </Timing>
             <ButtonGroup>
                 <Button onClick={handleTomato}><Icon symbolName={doing? "end" : "begin"} /> 开启一个番茄</Button>
-                <Button onClick={handleSpace}><Icon symbolName={doing? "end" : "begin"} /> 休息一个间隙</Button>
             </ButtonGroup>
             <h3>今日番茄</h3>
             <TomatoLists>
