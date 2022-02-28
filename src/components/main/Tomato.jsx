@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import {Button} from "../Button";
-import {getTomatoId, setTomatoes} from "../../data";
+import {getTomatoes, getTomatoId, setTomatoes} from "../../data";
 import Icon from "../header/Icon";
 
 function Tomato() {
@@ -12,19 +12,25 @@ function Tomato() {
     const [beginTime,setBeginTime] = useState("")
     const [doing ,setDoing] = useState(false)
     let newIntervalId
+    function endTomato(intervalId){
+        clearInterval(intervalId);
+        setIntervalId(0);
+        let record = {
+            id:getTomatoId(),
+            type:"tomato",
+            createDay: beginTime.toLocaleDateString(),
+            beginTime:beginTime.toLocaleTimeString(),
+            endTime: new Date().toLocaleTimeString(),
+        }
+        setTomatoes(record)
+        console.log(record);
+        setMinute(1)
+        setSecond(0)
+        setDoing(false)
+    }
     useEffect(()=>{
         if(minute === 0 && second ===0){
-            clearInterval(intervalId)
-            //创建一个记录
-            let record = {
-                id:getTomatoId(),
-                type:"tomato",
-                createDay: beginTime.toLocaleDateString(),
-                beginTime:beginTime.toLocaleTimeString(),
-                endTime: new Date().toLocaleTimeString(),
-            }
-            setTomatoes(record)
-            console.log(record);
+            endTomato(intervalId)
         }
     },[minute,second])
 
@@ -32,8 +38,7 @@ function Tomato() {
         setDoing(!doing)
         setBeginTime(() =>  new Date())
         if (intervalId) {
-            clearInterval(intervalId);
-            setIntervalId(0);
+            endTomato(intervalId)
             return;
         }
         let m = minute

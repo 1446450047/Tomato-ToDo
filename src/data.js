@@ -30,11 +30,15 @@ const getTomatoId = function(){
     return tomatoId
 }
 
-
 const setTomatoId = function (tomatoId){
     window.localStorage.setItem("tomatoId",JSON.stringify(++tomatoId))
 }
-const setTomatoes = function (tomato){
-    window.localStorage.setItem("tomatoes",JSON.stringify(tomato))
+const getTomatoes = function(){
+    return JSON.parse(window.localStorage.getItem("tomatoes") || "[]")
 }
-export {getId,updateId,getTasks,addTask,randomColor,setTask,getTomatoId,setTomatoes}
+const setTomatoes = function (tomato){
+    const tomatoes = getTomatoes()
+    tomatoes.push(tomato)
+    window.localStorage.setItem("tomatoes",JSON.stringify(tomatoes))
+}
+export {getId,updateId,getTasks,addTask,randomColor,setTask,getTomatoId,setTomatoes,getTomatoes}
