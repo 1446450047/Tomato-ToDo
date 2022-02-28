@@ -101,14 +101,7 @@
       <workItem from="1645078048181" duration="595000" />
       <workItem from="1645867555101" duration="8619000" />
       <workItem from="1646030224875" duration="61000" />
-      <workItem from="1646041070439" duration="3770000" />
-    </task>
-    <task id="LOCAL-00025" summary="修改显示路由选中时bar和字体的颜色">
-      <created>1644325817017</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1644325817017</updated>
+      <workItem from="1646041070439" duration="6275000" />
     </task>
     <task id="LOCAL-00026" summary="修改wrapper布局">
       <created>1644327096661</created>
@@ -446,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646044798899</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="可重复创建tomatoes">
+      <created>1646046234682</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1646046234682</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建模拟数据" />
     <MESSAGE value="list中数据渲染" />
     <MESSAGE value="完成task的基本样式" />
     <MESSAGE value="独立出数据" />
@@ -512,7 +511,8 @@
     <MESSAGE value="记录一个番茄" />
     <MESSAGE value="添加开始结束的icon" />
     <MESSAGE value="删除休息的按钮" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除休息的按钮" />
+    <MESSAGE value="可重复创建tomatoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="可重复创建tomatoes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -527,10 +527,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="828" y="40" key="CommitChangelistDialog2" timestamp="1646044797619">
+    <state x="828" y="40" key="CommitChangelistDialog2" timestamp="1646046233314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646044797619" />
+    <state x="828" y="40" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646046233314" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1644665120455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

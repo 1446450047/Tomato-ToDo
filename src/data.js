@@ -25,14 +25,15 @@ const setTask = function(tasks){
 
 
 const getTomatoId = function(){
-     let tomatoId = window.localStorage.getItem("tomatoId") || 1
+     let tomatoId = window.localStorage.getItem("tomatoId") || "1"
     setTomatoId(tomatoId)
-    return tomatoId
+    return JSON.parse(tomatoId)
 }
 
 const setTomatoId = function (tomatoId){
     window.localStorage.setItem("tomatoId",JSON.stringify(++tomatoId))
 }
+
 const getTomatoes = function(){
     return JSON.parse(window.localStorage.getItem("tomatoes") || "[]")
 }
