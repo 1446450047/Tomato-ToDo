@@ -95,7 +95,6 @@ function Tomato() {
                     </tr>
                 )}
                 </tbody>
-
             </TomatoLists>
         </TomatoWrapper>
     );
@@ -147,6 +146,21 @@ const TomatoLists = styled.table`
        text-align: center;
        border-bottom: 1px solid #FFBC80;
     }
+    th{
+        background:#F8802E;
+        color: #000;
+    }
   }
+  tr:hover{
+    background:#F8802E;
+    animation: fadeIn 1s;
+    color: #fff;
+  }
+  @keyframes fadeIn{
+    0%{transform: scale(98%);}
+    50%{transform: scale(102%);}
+    100%{transform: scale(100%);}
+  } 
 `;
+
 export default Tomato;
