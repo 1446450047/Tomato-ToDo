@@ -7,16 +7,12 @@ const TomatoesRecord = function (){
     const content = React.useRef();
     useEffect(() => {
         const tomatoes = getTomatoes()
-        console.log(tomatoes);
         const map = {}
         tomatoes.forEach((item)=>{
             map[item.createDay] === undefined ? map[item.createDay] = 1 : map[item.createDay]++;
         })
-        console.log(Object.keys(map));
-        console.log(Object.values(map));
         let myChart = echarts.init(content.current);
         let today = (new Date()).toLocaleDateString()
-        console.log(today);
         const option = {
             title:{
                 text:"番茄工作法历史统计",

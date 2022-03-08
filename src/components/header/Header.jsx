@@ -9,7 +9,6 @@ function Header() {
     //获取路由
     let location = router[useLocation().pathname]
     useEffect(() => {
-        console.log(1);
         bar.current.style.left = headerRef.current.children[location].offsetLeft + "px";
         [...headerRef.current.children].forEach((item) => {
             item.classList.remove("active");

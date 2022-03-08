@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoListReacord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoListReacord.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TomatoReacord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TomatoReacord.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +104,7 @@
       <workItem from="1646099636113" duration="2598000" />
       <workItem from="1646453751388" duration="597000" />
       <workItem from="1646645433443" duration="594000" />
-      <workItem from="1646719269442" duration="11479000" />
-    </task>
-    <task id="LOCAL-00035" summary="添加相应布局">
-      <created>1644390521486</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1644390521486</updated>
+      <workItem from="1646719269442" duration="11775000" />
     </task>
     <task id="LOCAL-00036" summary="添加按钮导航">
       <created>1644390685686</created>
@@ -448,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646738490557</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="添加吐槽">
+      <created>1646738989002</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1646738989002</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +490,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加随机生成boxShadow" />
     <MESSAGE value="独立出Task的样式" />
     <MESSAGE value="添加删除任务API" />
     <MESSAGE value="改变删除任务为切换任务的done属性" />
@@ -514,7 +514,8 @@
     <MESSAGE value="读取tomatoes并且渲染" />
     <MESSAGE value="独立出tomatoesRecord文件" />
     <MESSAGE value="完成todoListRecord文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成todoListRecord文件" />
+    <MESSAGE value="添加吐槽" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加吐槽" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -529,10 +530,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="670" y="66" key="CommitChangelistDialog2" timestamp="1646738485238">
+    <state x="670" y="66" key="CommitChangelistDialog2" timestamp="1646738973449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="66" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646738485238" />
+    <state x="670" y="66" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646738973449" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1646059078528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

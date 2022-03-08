@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React, {useEffect} from "react";
-import {getTasks, getTomatoes} from "../data";
+import {getTasks} from "../data";
 import * as echarts from "echarts";
 
 const TodoListsRecord = function () {
