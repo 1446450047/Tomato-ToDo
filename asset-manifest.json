@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Tomato-ToDo/static/css/main.214b6848.css",
-    "main.js": "/Tomato-ToDo/static/js/main.b243ef37.js",
+    "main.js": "/Tomato-ToDo/static/js/main.7cc0da5b.js",
     "static/js/787.439951c7.chunk.js": "/Tomato-ToDo/static/js/787.439951c7.chunk.js",
     "static/media/study.png": "/Tomato-ToDo/static/media/study.5459ed21cdfe308fff76.png",
     "static/media/Info.md": "/Tomato-ToDo/static/media/Info.aefb28c8c6cc9385c1fd.md",
     "index.html": "/Tomato-ToDo/index.html",
     "main.214b6848.css.map": "/Tomato-ToDo/static/css/main.214b6848.css.map",
-    "main.b243ef37.js.map": "/Tomato-ToDo/static/js/main.b243ef37.js.map",
+    "main.7cc0da5b.js.map": "/Tomato-ToDo/static/js/main.7cc0da5b.js.map",
     "787.439951c7.chunk.js.map": "/Tomato-ToDo/static/js/787.439951c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.214b6848.css",
-    "static/js/main.b243ef37.js"
+    "static/js/main.7cc0da5b.js"
   ]
 }
