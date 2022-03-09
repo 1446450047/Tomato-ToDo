@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tomato-todo-website/static/css/main.214b6848.css",
+    "main.js": "/tomato-todo-website/static/js/main.a0e9912b.js",
+    "static/js/787.439951c7.chunk.js": "/tomato-todo-website/static/js/787.439951c7.chunk.js",
+    "static/media/study.png": "/tomato-todo-website/static/media/study.5459ed21cdfe308fff76.png",
+    "static/media/Info.md": "/tomato-todo-website/static/media/Info.aefb28c8c6cc9385c1fd.md",
+    "index.html": "/tomato-todo-website/index.html",
+    "main.214b6848.css.map": "/tomato-todo-website/static/css/main.214b6848.css.map",
+    "main.a0e9912b.js.map": "/tomato-todo-website/static/js/main.a0e9912b.js.map",
+    "787.439951c7.chunk.js.map": "/tomato-todo-website/static/js/787.439951c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.214b6848.css",
+    "static/js/main.a0e9912b.js"
+  ]
+}
