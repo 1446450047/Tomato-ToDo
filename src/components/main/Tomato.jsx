@@ -13,6 +13,7 @@ function Tomato() {
     const [doing, setDoing] = useState(false);
     const [tomatoes, setNewTomatoes] = useState(getTomatoes());
     let newIntervalId;
+
     function endTomato(intervalId) {
         clearInterval(intervalId);
         setIntervalId(0);
@@ -69,7 +70,8 @@ function Tomato() {
                 <span>{second}</span>
             </Timing>
             <ButtonGroup>
-                <Button onClick={handleTomato}><Icon symbolName={doing ? "end" : "begin"}/> {doing ? "结束" : "开启一个番茄"}</Button>
+                <Button onClick={handleTomato}><Icon symbolName={doing ? "end" : "begin"}/> {doing ? "结束" : "开启一个番茄"}
+                </Button>
             </ButtonGroup>
             <h3>今日番茄</h3>
             <TomatoLists>
@@ -90,7 +92,7 @@ function Tomato() {
                         <td>{tomato.createDay}</td>
                         <td>{tomato.beginTime}</td>
                         <td>{tomato.endTime}</td>
-                        <td>{`${Math.floor(tomato.cost/ 60) }分${tomato.cost % 60}秒`}</td>
+                        <td>{`${Math.floor(tomato.cost / 60)}分${tomato.cost % 60}秒`}</td>
                         <td>{tomato.cost >= 1499 ? "是" : "否"}</td>
                     </tr>
                 )}
@@ -104,7 +106,7 @@ const Timing = styled.div`
     border: 2px solid #F76E11;
     border-radius: 15px;
     padding: 40px;
-    margin: 0 160px;
+    margin: 0 120px;
     font-size: 120px;
     color: #F76E11;
     user-select: none;
@@ -112,6 +114,14 @@ const Timing = styled.div`
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    @media (max-width: 1000px){
+      margin: 80px;
+      font-size:100px
+    }
+     @media (max-width: 800px){
+      margin: 40px;
+      font-size:80px
+    }
 `;
 const ButtonGroup = styled.div`
     display: flex;
@@ -132,6 +142,12 @@ const TomatoWrapper = styled.div`
       text-align: center;
       padding-bottom: 8px;
   }
+   @media (max-width: 1000px){
+      width: 80%;
+    }
+    @media (max-width: 800px){
+      width: 90%;
+    }
 `;
 const TomatoLists = styled.table`
   border: 2px solid #F8802E;
@@ -156,6 +172,36 @@ const TomatoLists = styled.table`
     animation: fadeIn 1s;
     color: #fff;
   }
+  @media (max-width: 1000px){
+    padding:0;
+     tr{
+         th,td{
+            padding: 8px 16px;    
+         }
+       }
+    }
+     @media (max-width: 800px){
+         padding:0;
+       tr{
+            th,td{
+                 padding: 4px 8px;    
+            }
+         }
+       }
+        @media (max-width: 600px){
+         padding:0;
+       tr{
+            th,td{
+             padding: 0;    
+            }
+         }
+         th:nth-child(4),td:nth-child(4){
+            display: none;
+         }
+         th:nth-child(1),td:nth-child(1){
+            display: none;
+         }
+       }
   @keyframes fadeIn{
     0%{transform: scale(98%);}
     50%{transform: scale(102%);}
