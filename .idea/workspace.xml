@@ -104,13 +104,8 @@
       <workItem from="1646453751388" duration="597000" />
       <workItem from="1646645433443" duration="594000" />
       <workItem from="1646719269442" duration="12453000" />
-    </task>
-    <task id="LOCAL-00037" summary="提取footer组件">
-      <created>1644390996444</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1644390996444</updated>
+      <workItem from="1646739745187" duration="172000" />
+      <workItem from="1646794130866" duration="1049000" />
     </task>
     <task id="LOCAL-00038" summary="更改路由切换导航条的显示效果，通过路由的转换来实现路由的bar显示">
       <created>1644404231269</created>
@@ -448,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646739064150</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="更改网页标题">
+      <created>1646739916404</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1646739916407</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加删除任务API" />
     <MESSAGE value="改变删除任务为切换任务的done属性" />
     <MESSAGE value="完成删除任务之后的视图重新渲染" />
     <MESSAGE value="添加task分组" />
@@ -514,7 +515,8 @@
     <MESSAGE value="完成todoListRecord文件" />
     <MESSAGE value="添加吐槽" />
     <MESSAGE value="删除无用的console.log()" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除无用的console.log()" />
+    <MESSAGE value="更改网页标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改网页标题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -529,10 +531,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="670" y="66" key="CommitChangelistDialog2" timestamp="1646739057024">
+    <state x="670" y="66" key="CommitChangelistDialog2" timestamp="1646739909227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="66" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646739057024" />
+    <state x="670" y="66" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646739909227" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1646059078528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
