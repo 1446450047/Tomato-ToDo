@@ -4,7 +4,6 @@ import MainView from "./routes";
 import styled from "styled-components";
 import Footer from "./components/footer/Footer";
 function App() {
-
     return (
         <Wrapper>
             <Header />

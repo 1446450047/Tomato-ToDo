@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0f6999-7a81-4e66-8f9f-97b327ef4f93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Tomato.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Tomato.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +110,7 @@
       <workItem from="1646645433443" duration="594000" />
       <workItem from="1646719269442" duration="12453000" />
       <workItem from="1646739745187" duration="172000" />
-      <workItem from="1646794130866" duration="3572000" />
-    </task>
-    <task id="LOCAL-00039" summary="更改go的字体大小">
-      <created>1644404427126</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1644404427126</updated>
+      <workItem from="1646794130866" duration="8083000" />
     </task>
     <task id="LOCAL-00040" summary="添加开发日志">
       <created>1644468443372</created>
@@ -451,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646795352280</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="添加tomatoes的响应式布局">
+      <created>1646797874665</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1646797874665</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成删除任务之后的视图重新渲染" />
     <MESSAGE value="添加task分组" />
     <MESSAGE value="完成今日份总结" />
     <MESSAGE value="添加tomato页面的基本html" />
@@ -517,7 +520,8 @@
     <MESSAGE value="删除无用的console.log()" />
     <MESSAGE value="更改网页标题" />
     <MESSAGE value="准备build" />
-    <option name="LAST_COMMIT_MESSAGE" value="准备build" />
+    <MESSAGE value="添加tomatoes的响应式布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加tomatoes的响应式布局" />
   </component>
   <component name="WindowStateProjectService">
     <state x="696" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644550753373">
@@ -532,10 +536,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1644227002370" />
-    <state x="670" y="66" key="CommitChangelistDialog2" timestamp="1646795342123">
+    <state x="670" y="66" key="CommitChangelistDialog2" timestamp="1646797873553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="66" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646795342123" />
+    <state x="670" y="66" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1646797873553" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1646795220446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

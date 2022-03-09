@@ -6,17 +6,22 @@ import {useEffect} from "react";
 import {router} from "../../routes/routerIndx";
 
 function Header() {
+    const bar = React.createRef();
+    const headerRef = React.createRef();
     //获取路由
     let location = router[useLocation().pathname]
+    useEffect(()=>{
+        console.log(headerRef);
+    })
     useEffect(() => {
+        console.log(headerRef);
         bar.current.style.left = headerRef.current.children[location].offsetLeft + "px";
         [...headerRef.current.children].forEach((item) => {
             item.classList.remove("active");
         });
         headerRef.current.children[location].classList.add("active");
     }, [location]);
-    const bar = React.createRef();
-    const headerRef = React.createRef();
+
     return (
         <HeaderWrapper className="header" ref={headerRef}>
             <HeadItem className="active"> <Link to="/"><Icon symbolName="logo"/></Link> </HeadItem>
